@@ -1,0 +1,9 @@
+Documentation:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'Gemfile.lock'
+    - 'bin/**/*'
+    - 'spec/examples.txt'
