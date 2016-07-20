@@ -1,7 +1,7 @@
 describe DataRepository do
   let(:data_repository) { DataRepository.new }
 
-  context 'when talked about a directories' do
+  context 'about directories' do
     it "is valid if it 'data' dir exists" do
       expect(data_repository).to have_data_directory
     end
@@ -13,28 +13,28 @@ describe DataRepository do
     end
   end
 
-  context 'when talked about a text data file' do
-    it 'is valid only with have a .txt extension' do
+  context 'about text data file' do
+    it 'is valid only with have a .log extension' do
       expect(data_repository).to have_file
     end
 
-    it "is invalid if doesn't have a .txt extension" do
-      data_repository.path = 'spec/data-test/data.file'
+    it "is invalid if doesn't have a .log extension" do
+      data_repository.path = 'spec/support/data/data.file'
 
       expect(data_repository).to_not have_file
     end
 
     it 'is usable if have any text data' do
-      data_repository.path = 'spec/data-test/data.txt'
+      data_repository.path = 'spec/support/data/data.log'
       data_repository.read
 
       expect(data_repository.text_data).to_not be_nil
     end
   end
 
-  context 'when talked about a text data inside the file' do
+  context 'about text data inside the file' do
     it 'needs to be readed as well' do
-      data_repository.path = 'spec/data-test/data.txt'
+      data_repository.path = 'spec/support/data/data.log'
       data_repository.read
 
       data_test = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n"
