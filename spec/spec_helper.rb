@@ -1,6 +1,7 @@
 require 'simplecov'
-
 SimpleCov.start
+
+Dir["lib/**/*.rb"].each { |file| require File.expand_path(file) }
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
