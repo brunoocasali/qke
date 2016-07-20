@@ -1,0 +1,3 @@
+describe Kill do
+
+end
