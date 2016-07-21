@@ -1,11 +1,12 @@
 module Rules
   class Rule
     # this class will turn a "base" class to template methods.
-    attr_reader :klass, :actual_line
+    attr_reader :klass
+    attr_accessor :line
 
     def initialize(klass:, line:)
       @klass = klass
-      @actual_line = line
+      @line = line
     end
 
     def process!; end
@@ -17,7 +18,6 @@ module Rules
     # GameRule will only match lines with "InitGame:"
     #
     # Returns a bool value.
-    def is_usable_line?
-    end
+    def is_usable_line?; end
   end
 end
