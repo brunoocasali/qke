@@ -35,9 +35,12 @@ module Rules
     end
 
     describe '#do_work!' do
-      it 'generate a new Game object' do
-        Helpers::Database.class_variable_set :@@default_path, 'spec/support/data/data.yml'
+      before do
+        Helpers::Database.class_variable_set :@@default_path,
+                                             'spec/support/data/data.yml'
+      end
 
+      it 'generate a new Game object' do
         rule.line = valid_line_1
         result = rule.do_work!
 
@@ -45,6 +48,8 @@ module Rules
         expect(result.name).to eq('game_4')
         expect(result.status).to be_truthy
       end
+
+      # when a game has not finalized...
     end
   end
 end

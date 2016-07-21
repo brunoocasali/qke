@@ -3,6 +3,7 @@ require 'yaml'
 
 module Helpers
   class Database
+    # rubocop:disable Style/ClassVars
     @@default_path = 'data/db.yml'
 
     def self.find(path: @@default_path)
