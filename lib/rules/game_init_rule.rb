@@ -1,6 +1,6 @@
 module Rules
   class GameInitRule < Rules::Rule
-    include ::Helpers::Constants
+    include Helpers::Constants
 
     def initialize(params = {})
       params[:klass] = Game
@@ -9,7 +9,7 @@ module Rules
     end
 
     def do_work!
-      klass.new(name: 'game_{counter}', status: true)
+      klass.new(name: "game_#{counter}", status: true)
     end
 
     def is_usable_line?
@@ -19,7 +19,7 @@ module Rules
     private
 
     def counter
-      Database.find.first.select { |a| a.is_a? @klass }.count
+      Helpers::Database.find.first.select { |a| a.is_a? @klass }.count + 1
     end
   end
 end

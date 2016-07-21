@@ -4,54 +4,47 @@ module Rules
 
     let!(:rule) { described_class.new(line: '') }
 
-    let(:valid_line_1) { ' 0:42 Kill: 102 2 22: <world> killed pp by MOD_' }
-    let(:valid_line_2) { ' 22:06 Kill: 2 3 7: Isgal killed Moc by MOD_ROCKET' }
-    let(:valid_line_3) { '999:06 Kill: 2 3 7: Isgal killed Moc by MOD_ROCKET' }
-    let(:valid_line_4) { '9999:06 Kill: 2 3 7: Isgal killed Moc by MOD_ROCKET' }
+    let(:valid_line_1) { ' 20:37 InitGame: \sv_floodProtect\1\s' }
+    let(:valid_line_2) { '9195:16 InitGame: 2 3 7: Isgal killET' }
 
-    let(:invalid_line_1) { ' 20:59 Item: 2 weapon_rocketlauncher' }
-    let(:invalid_line_2) { ' 21:15 ClientConnect: 2' }
-    let(:invalid_line_3) { ' 21:85 Kill: 2' }
+    let(:invalid_line_1) { '2 20:59 InitGame: 2 weapon_rocketla' }
+    let(:invalid_line_2) { '-----------------------------------' }
 
     # then here I will check the line.
 
-    context 'to be invalid kill' do
-      describe '#is_usable_line?' do
-        it "hasn't kill word" do
+    describe '#is_usable_line?' do
+      context 'to be invalid game initializing' do
+        it "hasn't init word" do
           rule.line = invalid_line_1
           expect(rule.is_usable_line?).to be_falsey
 
           rule.line = invalid_line_2
           expect(rule.is_usable_line?).to be_falsey
-
-          rule.line = invalid_line_3
-          expect(rule.is_usable_line?).to be_falsey
         end
       end
-    end
 
-    context 'to be a world kill' do
-    end
-
-    context 'to be a valid kill' do
-      describe '#is_usable_line?' do
-        it 'has kill word' do
+      context 'to be a valid game initializing' do
+        it 'has init word' do
           rule.line = valid_line_1
           expect(rule.is_usable_line?).to be_truthy
 
           rule.line = valid_line_2
           expect(rule.is_usable_line?).to be_truthy
-
-          rule.line = valid_line_3
-          expect(rule.is_usable_line?).to be_truthy
-
-          rule.line = valid_line_4
-          expect(rule.is_usable_line?).to be_truthy
         end
       end
+    end
 
-      #  21:42 Kill: 1022 2 22: <world> killed Isgalamido by MOD_TRIGGER_HURT
-      #  22:06 Kill: 2 3 7: Isgalamido killed Mocinha by MOD_ROCKET_SPLASH
+    describe '#do_work!' do
+      it 'generate a new Game object' do
+        Helpers::Database.class_variable_set :@@default_path, 'spec/support/data/data.yml'
+
+        rule.line = valid_line_1
+        result = rule.do_work!
+
+        expect(result).to be_a(Game)
+        expect(result.name).to eq('game_4')
+        expect(result.status).to be_truthy
+      end
     end
   end
 end

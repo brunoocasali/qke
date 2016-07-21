@@ -3,9 +3,9 @@ require 'yaml'
 
 module Helpers
   class Database
-    ROOT_PATH = 'data/db.yml'.freeze
+    @@default_path = 'data/db.yml'
 
-    def self.find(path: ROOT_PATH)
+    def self.find(path: @@default_path)
       result = []
       $/ = "\n\n"
 

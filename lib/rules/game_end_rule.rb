@@ -1,4 +1,4 @@
 module Rules
-  class GameEndRule do
+  class GameEndRule
   end
 end
