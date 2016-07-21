@@ -15,3 +15,5 @@ game:
   status: false
   players: []
   kills: []
+kill: []
+player: []

@@ -34,7 +34,6 @@ module Rules
 
     describe '#do_work!' do
       before { Game.update(3, status: true) }
-      # after { Game.update(3, status: true) }
 
       it 'change to false last open Game' do
         expect(Game.all.count { |item| !item['status'] }).to eq(2)
@@ -44,8 +43,6 @@ module Rules
 
         expect(Game.all.count { |item| !item['status'] }).to eq(3)
       end
-
-      # when a game has not finalized...
     end
   end
 end
