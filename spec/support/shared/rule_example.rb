@@ -4,6 +4,7 @@ shared_examples_for 'a ruler' do
   context 'respond_to methods' do
     it { expect(ruler).to respond_to(:process!) }
     it { expect(ruler).to respond_to(:is_usable_line?) }
+    it { expect(ruler).to respond_to(:do_work!) }
   end
 
   describe '#process!' do
@@ -16,9 +17,27 @@ shared_examples_for 'a ruler' do
 
   describe '#is_usable_line?' do
     it 'get nil' do
-      result = ruler.process!
+      result = ruler.is_usable_line?
 
-      expect(result).to be_nil
+      expect(result).to be_falsey
+    end
+  end
+
+  describe '#is_usable_line?' do
+    it 'get nil' do
+      expect(ruler).to receive(:is_usable_line?).and_return(false)
+
+      result = ruler.is_usable_line?
+      expect(result).to be_falsey
+    end
+  end
+
+  describe '#do_work!' do
+    it 'get nil' do
+      expect(ruler).to receive(:is_usable_line?).and_return(true)
+      expect(ruler).to receive(:do_work!)
+
+      ruler.process!
     end
   end
 end
