@@ -1,0 +1,16 @@
+---
+- !ruby/object:Game
+  name: game_1
+  status: false
+  kills: []
+  players: []
+- !ruby/object:Game
+  name: game_2
+  status: false
+  kills: []
+  players: []
+- !ruby/object:Game
+  name: game_3
+  status: true
+  kills: []
+  players: []

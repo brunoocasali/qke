@@ -44,6 +44,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
   pry
   rspec
   rubocop

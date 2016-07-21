@@ -1,7 +1,8 @@
 require 'pry'
-require 'simplecov'
+# require 'simplecov'
+require 'yaml'
 
-SimpleCov.start
+# SimpleCov.start
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 Dir['lib/**/*.rb'].each { |file| require File.expand_path(file) }

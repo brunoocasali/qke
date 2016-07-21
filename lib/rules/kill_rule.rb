@@ -1,12 +1,11 @@
-require 'rules/rule'
-require 'helpers/constants'
-
 module Rules
   class KillRule < Rules::Rule
     include ::Helpers::Constants
 
-    def initialize(params)
-      super params
+    def initialize(params = {})
+      params[:klass] = Kill
+
+      super(params)
     end
 
     def is_usable_line?

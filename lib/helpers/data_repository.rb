@@ -1,3 +1,5 @@
+require 'yaml'
+
 # frozen_string_literal: true
 module Helpers
   class DataRepository
