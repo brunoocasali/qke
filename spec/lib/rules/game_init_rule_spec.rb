@@ -35,11 +35,6 @@ module Rules
     end
 
     describe '#do_work!' do
-      before do
-        Helpers::Database.class_variable_set :@@default_path,
-                                             'spec/support/data/data.yml'
-      end
-
       it 'generate a new Game object' do
         rule.line = valid_line_1
         result = rule.do_work!

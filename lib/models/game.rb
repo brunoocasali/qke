@@ -1,4 +1,6 @@
 class Game
+  include Yamlet.model
+
   attr_accessor :name, :status, :kills, :players
 
   def initialize(name:, status:)

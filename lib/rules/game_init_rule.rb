@@ -19,7 +19,7 @@ module Rules
     private
 
     def counter
-      Helpers::Database.find.first.count { |a| a.is_a? @klass } + 1
+      klass.all.count + 1
     end
   end
 end

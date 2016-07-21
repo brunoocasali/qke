@@ -9,12 +9,8 @@ module Rules
     end
 
     def do_work!
-      last_open_game
-      # get the last open game, then change to status: false
-
-      # klass.new(name: "game_#{counter}", status: true)
-
-      # certiicar-se no teste que os dados antigos continuam lá.
+      game = last_open_game
+      klass.update(game['id'], status: false)
     end
 
     def is_usable_line?
@@ -24,9 +20,7 @@ module Rules
     private
 
     def last_open_game
-      @current = Helpers::Database.find.first
-
-      @current.reverse.find { |item| item.is_a?(@klass) && item.status }
+      klass.all.reverse.find { |item| item['status'] }
     end
   end
 end
