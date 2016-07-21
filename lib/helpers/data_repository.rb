@@ -1,27 +1,29 @@
 # frozen_string_literal: true
-class DataRepository
-  ROOT_PATH = 'data/data.log'.freeze
+module Helpers
+  class DataRepository
+    ROOT_PATH = 'data/data.log'.freeze
 
-  attr_accessor :path, :text_data
+    attr_accessor :path, :text_data
 
-  def initialize(path = ROOT_PATH)
-    @path = path
-    @text_data = []
-  end
+    def initialize(path = ROOT_PATH)
+      @path = path
+      @text_data = []
+    end
 
-  def read
-    if file?
-      File.open(@path, 'r').each do |line|
-        @text_data << line
+    def read
+      if has_file?
+        File.open(@path, 'r').each do |line|
+          @text_data << line
+        end
       end
     end
-  end
 
-  def file?
-    File.extname(@path) == '.log' if File.exist?(@path)
-  end
+    def has_file?
+      File.extname(@path) == '.log' if File.exist?(@path)
+    end
 
-  def data_directory?
-    File.dirname(@path) == 'data'
+    def has_data_directory?
+      Dir.exist? File.dirname(@path)
+    end
   end
 end
