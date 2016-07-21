@@ -1,4 +1,6 @@
+require 'pry'
 require 'simplecov'
+
 SimpleCov.start
 
 Dir['lib/**/*.rb'].each { |file| require File.expand_path(file) }

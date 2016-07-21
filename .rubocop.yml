@@ -1,6 +1,10 @@
 Documentation:
   Enabled: false
 
+# This break's the dinamically matchers in spec :/
+Style/PredicateName:
+  Enabled: false
+
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
