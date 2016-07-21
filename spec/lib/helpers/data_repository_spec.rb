@@ -1,6 +1,8 @@
 module Helpers
   describe DataRepository do
-    let(:data_repository) { DataRepository.new('spec/support/data/data.log') }
+    let(:data_repository) do
+      DataRepository.new(path: 'spec/support/data/data.log')
+    end
 
     context 'about directories' do
       it "is valid if it 'data' dir exists" do

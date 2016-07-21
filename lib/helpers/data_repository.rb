@@ -1,3 +1,5 @@
+require 'yaml'
+
 # frozen_string_literal: true
 module Helpers
   class DataRepository
@@ -5,7 +7,7 @@ module Helpers
 
     attr_accessor :path, :text_data
 
-    def initialize(path = ROOT_PATH)
+    def initialize(path: ROOT_PATH)
       @path = path
       @text_data = []
     end
