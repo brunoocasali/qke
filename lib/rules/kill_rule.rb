@@ -10,7 +10,7 @@ module Rules
     end
 
     def is_usable_line?
-      !/#{START_MINUTES} Kill/.match(line).nil?
+      !(line !~ /#{START_MINUTES} Kill/)
     end
   end
 end
