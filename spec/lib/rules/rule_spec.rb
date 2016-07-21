@@ -1,6 +1,6 @@
 module Rules
   describe Rule do
-    let!(:rule) { Rule.new(klass: Rule) }
+    let!(:rule) { Rule.new(klass: Rule, line: '') }
 
     describe '.initialize' do
       it 'need to return the klass passed by param' do

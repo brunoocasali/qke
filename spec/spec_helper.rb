@@ -3,6 +3,7 @@ require 'simplecov'
 
 SimpleCov.start
 
+Dir['./spec/support/**/*.rb'].each { |f| require f }
 Dir['lib/**/*.rb'].each { |file| require File.expand_path(file) }
 
 RSpec.configure do |config|
