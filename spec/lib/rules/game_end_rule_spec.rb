@@ -33,15 +33,35 @@ module Rules
     end
 
     describe '#do_work!' do
-      before { Game.update(3, status: true) }
+      context 'success' do
+        before { Game.update(3, status: true) }
 
-      it 'change to false last open Game' do
-        expect(Game.all.count { |item| !item['status'] }).to eq(2)
+        it 'change to false last open Game' do
+          expect(Game.all.count { |item| !item['status'] }).to eq(2)
 
-        rule.line = valid_line_1
-        result = rule.do_work!
+          rule.line = valid_line_1
+          rule.do_work!
 
-        expect(Game.all.count { |item| !item['status'] }).to eq(3)
+          expect(Game.all.count { |item| !item['status'] }).to eq(3)
+        end
+      end
+
+      context 'fail' do
+        before do
+          @games = Game.all
+          Game.destroy_all
+        end
+
+        it 'ignore if has no open games' do
+          expect(Game.all.count).to be_zero
+
+          rule.line = valid_line_1
+          rule.do_work!
+
+          expect(Game.all.count).to be_zero
+        end
+
+        after { @games.each { |game| Game.create(game) } }
       end
     end
   end

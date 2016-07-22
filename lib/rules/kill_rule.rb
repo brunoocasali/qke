@@ -8,6 +8,10 @@ module Rules
       super(params)
     end
 
+    def do_work!
+      puts 'passou por aqui!'
+    end
+
     def is_usable_line?
       !(line !~ /#{START_MINUTES} Kill/)
     end
