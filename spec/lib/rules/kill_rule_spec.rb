@@ -1,5 +1,5 @@
 module Rules
-  describe KillRule do
+  describe KillRule, type: :rule do
     it_behaves_like 'a ruler'
 
     let!(:rule) { described_class.new(line: '') }

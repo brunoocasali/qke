@@ -9,7 +9,7 @@ module Rules
     end
 
     def do_work!
-      klass.new(name: "game_#{counter}", status: true)
+      klass.create(name: "game_#{counter}", status: true)
     end
 
     def is_usable_line?

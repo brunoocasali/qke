@@ -10,7 +10,7 @@ module Rules
 
     def do_work!
       game = last_open_game
-      klass.update(game['id'], status: false)
+      klass.update(game['id'], status: false) unless game.nil?
     end
 
     def is_usable_line?

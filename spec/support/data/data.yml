@@ -1,13 +1,4 @@
 ---
-game:
-- id: 1
-  name: game_1
-  status: false
-- id: 2
-  name: game_2
-  status: false
-- id: 3
-  name: game_3
-  status: false
+game: []
 kill: []
 player: []

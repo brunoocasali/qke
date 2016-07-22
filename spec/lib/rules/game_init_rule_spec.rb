@@ -1,5 +1,5 @@
 module Rules
-  describe GameInitRule do
+  describe GameInitRule, type: :rule do
     it_behaves_like 'a ruler'
 
     let!(:rule) { described_class.new(line: '') }
@@ -37,14 +37,21 @@ module Rules
     describe '#do_work!' do
       it 'generate a new Game object' do
         rule.line = valid_line_1
-        result = rule.do_work!
+        result = rule.do_work!.last
 
-        expect(result).to be_a(Game)
-        expect(result.name).to eq('game_4')
-        expect(result.status).to be_truthy
+        expect(result['name']).to eq('game_1')
+        expect(result['status']).to be_truthy
       end
 
-      # when a game has not finalized...
+      it 'when is not the first generate in the same way' do
+        Game.create(status: true)
+
+        rule.line = valid_line_1
+        result = rule.do_work!.last
+
+        expect(result['name']).to eq('game_2')
+        expect(result['status']).to be_truthy
+      end
     end
   end
 end

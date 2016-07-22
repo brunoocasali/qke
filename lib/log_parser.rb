@@ -9,6 +9,10 @@ class LogParser
   end
 
   def run!
+    # TODO: remover isso. apenas para debug
+    Game.destroy_all
+    # TODO: remover isso. apenas para debug
+
     data = Helpers::DataRepository.new
     data.read
 

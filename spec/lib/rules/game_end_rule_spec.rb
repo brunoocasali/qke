@@ -1,5 +1,5 @@
 module Rules
-  describe GameEndRule do
+  describe GameEndRule, type: :rule do
     it_behaves_like 'a ruler'
 
     let!(:rule) { described_class.new(line: '') }
@@ -33,35 +33,20 @@ module Rules
     end
 
     describe '#do_work!' do
-      context 'success' do
-        before { Game.update(3, status: true) }
+      it 'change to false last open Game' do
+        Game.create(status: true)
 
-        it 'change to false last open Game' do
-          expect(Game.all.count { |item| !item['status'] }).to eq(2)
+        rule.line = valid_line_1
+        rule.do_work!
 
-          rule.line = valid_line_1
-          rule.do_work!
-
-          expect(Game.all.count { |item| !item['status'] }).to eq(3)
-        end
+        expect(Game.all.count { |item| !item['status'] }).to eq(1)
       end
 
-      context 'fail' do
-        before do
-          @games = Game.all
-          Game.destroy_all
-        end
+      it 'ignore if has no open games' do
+        rule.line = valid_line_1
+        rule.do_work!
 
-        it 'ignore if has no open games' do
-          expect(Game.all.count).to be_zero
-
-          rule.line = valid_line_1
-          rule.do_work!
-
-          expect(Game.all.count).to be_zero
-        end
-
-        after { @games.each { |game| Game.create(game) } }
+        expect(Game.all.count).to be_zero
       end
     end
   end
