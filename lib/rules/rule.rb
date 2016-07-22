@@ -5,6 +5,7 @@ module Rules
     def initialize(klass:, line:)
       @klass = klass
       @line = line
+      @data ||= []
     end
 
     ##

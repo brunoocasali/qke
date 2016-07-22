@@ -34,7 +34,7 @@ module Rules
 
     describe '#do_work!' do
       it 'change to false last open Game' do
-        Game.create(status: true)
+        Game.create(status: true, players: [])
 
         rule.line = valid_line_1
         rule.do_work!

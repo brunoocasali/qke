@@ -9,18 +9,12 @@ module Rules
     end
 
     def do_work!
-      game = last_open_game
-      klass.update(game['id'], status: false) unless game.nil?
+      game = Game.last_open
+      Game.update(game['id'], status: false, players: game['players'].uniq { |a| a['log_id'] }) unless game.nil?
     end
 
     def is_usable_line?
       !(line !~ /#{START_MINUTES} ShutdownGame/)
-    end
-
-    private
-
-    def last_open_game
-      klass.all.reverse.find { |item| item['status'] }
     end
   end
 end

@@ -13,4 +13,8 @@ class Game
   #   :total_kills => count of kills.
   #   :players     => simple getter method.
   #   :kills       => simple getter method.
+
+  def self.last_open
+    Game.all.reverse.find { |item| item['status'] }
+  end
 end

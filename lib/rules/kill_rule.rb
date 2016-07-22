@@ -8,10 +8,18 @@ module Rules
       super(params)
     end
 
-    def do_work!; end
+    def do_work!
+      game = Game.last_open
+
+      unless game.nil?
+        game['kills'] << { 'killer' => @data[2], 'killed' => @data[3], 'cause' => @data[4] }
+
+        Game.update(game['id'], kills: game['kills'])
+      end
+    end
 
     def is_usable_line?
-      !(line !~ /#{START_MINUTES} Kill/)
+      @data = /#{START_MINUTES} Kill: #{DEATH_NUMBER_SEQUENCE}/.match(line)
     end
   end
 end

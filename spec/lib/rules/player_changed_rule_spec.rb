@@ -33,11 +33,11 @@ module Rules
     end
 
     describe '#do_work!' do
-      before { Game.create(status: true) }
+      before { Game.create(status: true, players: []) }
 
       it 'validate player values' do
         rule.line = valid_line_1
-        rule.do_work!
+        rule.process!
 
         player = Player.all.last
 
@@ -49,14 +49,14 @@ module Rules
         expect(Player.all.count).to be_zero
 
         rule.line = valid_line_1
-        rule.do_work!
+        rule.process!
 
         expect(Player.all.count).to eq(1)
       end
 
       it 'if player already exists then update' do
         rule.line = valid_line_1
-        rule.do_work!
+        rule.process!
 
         player = Player.all.last
         expect(Player.all.count).to eq(1)
@@ -64,7 +64,7 @@ module Rules
         expect(player['log_id']).to eq('2')
 
         rule.line = valid_line_2
-        rule.do_work!
+        rule.process!
 
         player = Player.all.last
         expect(Player.all.count).to eq(1)

@@ -1,4 +1,5 @@
 require_relative 'rules'
+require 'pry'
 
 module Rules
   class PlayerChangedRule < Rules::Rule
@@ -11,38 +12,31 @@ module Rules
     end
 
     def do_work!
-      game = last_open_game
+      game = Game.last_open
 
       unless game.nil?
-        data = line_data
-        player = Player.all.find { |p| p['log_id'] == data[2] }
+        player = Player.all.find { |p| p['log_id'] == @data[2] }
 
-        update_or_create_from player, data
+        game['players'] << update_or_create_from(player)
 
-        Game.update(game['id'], players: player)
+        Game.update(game['id'], players: game['players'])
       end
     end
 
     def is_usable_line?
-      !(line !~ /#{START_MINUTES} ClientUserinfoChanged/)
+      @data = /#{START_MINUTES} ClientUserinfoChanged: #{CHANGED_NAME}/.match(line)
     end
 
     private
 
-    def last_open_game
-      Game.all.reverse.find { |item| item['status'] }
-    end
+    def update_or_create_from(player)
+      result = if player.nil?
+                 klass.create(log_id: @data[2], name: @data[3]).last
+               else
+                 klass.update(player['id'], name: @data[3])
+               end
 
-    def line_data
-      /#{START_MINUTES} ClientUserinfoChanged: #{CHANGED_NAME}/.match(line)
-    end
-
-    def update_or_create_from(player, data)
-      if player.nil?
-        klass.create(log_id: data[2], name: data[3])
-      else
-        klass.update(player['id'], name: data[3])
-      end
+      { 'id' => result['id'], 'log_id' => result['log_id'] }
     end
   end
 end
