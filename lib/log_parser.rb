@@ -3,11 +3,12 @@
 end
 
 class LogParser
-  attr_reader :rules
+  attr_reader :rules, :data
 
   def initialize(rules: [Rules::GameInitRule, Rules::GameEndRule,
-                         Rules::KillRule])
+                         Rules::KillRule], data: Helpers::DataRepository.new)
     @rules = rules
+    @data = data
 
     valid_rules?
   end
@@ -17,7 +18,6 @@ class LogParser
     # Game.destroy_all
     # TODO: remover isso. apenas para debug
 
-    data = Helpers::DataRepository.new
     data.read
 
     data.text_data.each do |line|
