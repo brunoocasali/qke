@@ -13,8 +13,6 @@ module Rules
     let(:invalid_line_2) { ' 21:15 ClientConnect: 2' }
     let(:invalid_line_3) { ' 21:85 Kill: 2' }
 
-    # then here I will check the line.
-
     context 'to be invalid kill' do
       describe '#is_usable_line?' do
         it "hasn't kill word" do

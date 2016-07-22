@@ -1,4 +1,19 @@
 ---
-game: []
+game:
+- id: 1
+  status: true
+  players:
+  - id: 1
+    log_id: '2'
+    name: Moda  Foca
+  - id: 2
+    log_id: '5'
+    name: opa
 kill: []
-player: []
+player:
+- id: 1
+  log_id: '2'
+  name: Moda  Foca
+- id: 2
+  log_id: '5'
+  name: opa

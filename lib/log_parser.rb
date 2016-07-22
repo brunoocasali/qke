@@ -6,7 +6,8 @@ class LogParser
   attr_reader :rules, :data
 
   def initialize(rules: [Rules::GameInitRule, Rules::GameEndRule,
-                         Rules::KillRule], data: Helpers::DataRepository.new)
+                         Rules::KillRule, Rules::PlayerInfoChangedRule],
+                 data: Helpers::DataRepository.new)
     @rules = rules
     @data = data
 

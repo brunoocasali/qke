@@ -10,8 +10,6 @@ module Rules
     let(:invalid_line_1) { '2 20:59 InitGame: 2 weapon_rocketla' }
     let(:invalid_line_2) { '-----------------------------------' }
 
-    # then here I will check the line.
-
     describe '#is_usable_line?' do
       context 'to be invalid game initializing' do
         it "hasn't init word" do
