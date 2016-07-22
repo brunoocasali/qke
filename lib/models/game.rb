@@ -3,13 +3,6 @@ class Game
 
   attr_accessor :name, :status, :kills, :players
 
-  def initialize(name:, status:)
-    @name = name
-    @status = status
-    @kills = []
-    @players = []
-  end
-
   # A game class need to be responsible about (attrs):
   #   :status  => Initiated or not Initiated
   #   :name    => Your code like: game-1, game-2, game-n.
