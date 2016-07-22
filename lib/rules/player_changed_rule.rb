@@ -17,11 +17,7 @@ module Rules
         data = line_data
         player = Player.all.find { |p| p['log_id'] == data[2] }
 
-        player = if player.nil?
-                    klass.create(log_id: data[2], name: data[3])
-                 else
-                    klass.update(player['id'], name: data[3])
-                 end
+        update_or_create_from player, data
 
         Game.update(game['id'], players: player)
       end
@@ -39,6 +35,14 @@ module Rules
 
     def line_data
       /#{START_MINUTES} ClientUserinfoChanged: #{CHANGED_NAME}/.match(line)
+    end
+
+    def update_or_create_from(player, data)
+      if player.nil?
+        klass.create(log_id: data[2], name: data[3])
+      else
+        klass.update(player['id'], name: data[3])
+      end
     end
   end
 end

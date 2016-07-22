@@ -9,6 +9,5 @@ AllCops:
   TargetRubyVersion: 2.3
   Exclude:
     - 'Gemfile*'
-    - 'lib/rules/player*'
     - 'bin/**/*'
     - 'spec/examples.txt'
