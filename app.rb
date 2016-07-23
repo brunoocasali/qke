@@ -9,5 +9,8 @@ require File.expand_path('lib/log_parser.rb')
 # parser.run!
 
 # Responsible to show things from db.yml.
-report = Report.new
+report = Reports::Report.new
 report.show
+
+# report = Reports::Report.new
+# report.show

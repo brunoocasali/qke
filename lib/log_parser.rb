@@ -1,7 +1,5 @@
-%w(helpers models rules).each do |file|
-  require File.expand_path("lib/#{file}/#{file}.rb")
-end
-require 'pry'
+require_relative 'pre_load'
+
 class LogParser
   attr_reader :rules, :data
 
@@ -21,7 +19,7 @@ class LogParser
 
     data.read
 
-    data.text_data.each_with_index do |line, idx|
+    data.text_data.each do |line|
       rules.each do |rule|
         rule.new(line: line).process!
       end
