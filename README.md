@@ -7,6 +7,10 @@
 - `$ cd tvox_quake_parser`
 - `$ bundle install`
 
-### run:
+### run tests:
+
+- `$ rspec`
+
+### run app:
 
 - `$ ruby app.rb`
