@@ -1,5 +1,5 @@
-require 'rules/rule'
-require 'helpers/constants'
 require 'yamlet'
+
+require_relative '../helpers/constants'
 
 module Rules; end

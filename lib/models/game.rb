@@ -3,13 +3,6 @@ class Game
 
   attr_accessor :name, :status, :kills, :players
 
-  def initialize(name:, status:)
-    @name = name
-    @status = status
-    @kills = []
-    @players = []
-  end
-
   # A game class need to be responsible about (attrs):
   #   :status  => Initiated or not Initiated
   #   :name    => Your code like: game-1, game-2, game-n.
@@ -20,4 +13,8 @@ class Game
   #   :total_kills => count of kills.
   #   :players     => simple getter method.
   #   :kills       => simple getter method.
+
+  def self.last_open
+    Game.all.reverse.find { |item| item['status'] }
+  end
 end

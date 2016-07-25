@@ -1,5 +1,5 @@
 module Rules
-  describe KillRule do
+  describe KillRule, type: :rule do
     it_behaves_like 'a ruler'
 
     let!(:rule) { described_class.new(line: '') }
@@ -12,8 +12,6 @@ module Rules
     let(:invalid_line_1) { ' 20:59 Item: 2 weapon_rocketlauncher' }
     let(:invalid_line_2) { ' 21:15 ClientConnect: 2' }
     let(:invalid_line_3) { ' 21:85 Kill: 2' }
-
-    # then here I will check the line.
 
     context 'to be invalid kill' do
       describe '#is_usable_line?' do

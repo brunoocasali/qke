@@ -1,5 +1,5 @@
 module Rules
-  describe Rule do
+  describe Rule, type: :rule do
     let!(:rule) { Rule.new(klass: Rule, line: '') }
 
     describe '#initialize' do

@@ -8,6 +8,6 @@ Style/PredicateName:
 AllCops:
   TargetRubyVersion: 2.3
   Exclude:
-    - 'Gemfile.lock'
+    - 'Gemfile*'
     - 'bin/**/*'
     - 'spec/examples.txt'

@@ -18,4 +18,6 @@ RSpec.configure do |config|
   end
 
   config.example_status_persistence_file_path = 'spec/examples.txt'
+
+  config.before(:each) { [Game, Kill, Player].each(&:destroy_all) }
 end
