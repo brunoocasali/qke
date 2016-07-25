@@ -6,7 +6,7 @@ SimpleCov.start
 Yamlet.repository_file = 'spec/support/data/data.yml'
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
-Dir['lib/**/*.rb'].each { |file| require File.expand_path(file) }
+require File.expand_path('lib/pre_load.rb')
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

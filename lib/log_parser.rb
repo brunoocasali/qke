@@ -12,9 +12,9 @@ class LogParser
 
   def run!
     # TODO: remover isso. apenas para debug
-    # Game.destroy_all
-    # Player.destroy_all
-    # Kill.destroy_all
+    Game.destroy_all
+    Player.destroy_all
+    Kill.destroy_all
     # TODO: remover isso. apenas para debug
 
     data.read

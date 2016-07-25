@@ -1,3 +1,5 @@
+require 'log_parser'
+
 describe LogParser do
   before do
     class Fake; end

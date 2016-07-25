@@ -25,47 +25,36 @@ game:
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
 - id: 3
   name: game_3
   status: false
@@ -80,19 +69,15 @@ game:
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
 - id: 4
   name: game_4
   status: false
@@ -109,423 +94,318 @@ game:
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '3'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '1'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
 - id: 5
   name: game_5
   status: false
@@ -542,59 +422,45 @@ game:
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
 - id: 6
   name: game_6
   status: false
@@ -615,119 +481,90 @@ game:
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '3'
     killed: '6'
     cause: '1'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '1'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '1'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
 - id: 7
   name: game_7
   status: false
@@ -750,523 +587,393 @@ game:
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '1'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '1'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '8'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '19'
-    by_world: true
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '1'
-    by_world: false
   - killer: '3'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '6'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '1'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '3'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
 - id: 8
   name: game_8
   status: false
@@ -1287,359 +994,270 @@ game:
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '5'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '1'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '10'
-    by_world: false
 - id: 9
   name: game_9
   status: false
@@ -1660,271 +1278,204 @@ game:
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '1'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '6'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '10'
-    by_world: false
 - id: 10
   name: game_10
   status: false
@@ -1947,243 +1498,183 @@ game:
   - killer: '6'
     killed: '2'
     cause: '18'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '18'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '18'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '18'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '5'
     killed: '8'
     cause: '18'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '8'
     cause: '18'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '8'
     cause: '18'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '7'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '8'
     cause: '18'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '13'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '8'
     killed: '7'
     cause: '12'
-    by_world: false
   - killer: '8'
     killed: '8'
     cause: '13'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '18'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '2'
     cause: '18'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '8'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '8'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '8'
     cause: '17'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '8'
     cause: '12'
-    by_world: false
 - id: 11
   name: game_11
   status: false
@@ -2206,83 +1697,63 @@ game:
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '17'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '2'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
 - id: 12
   name: game_12
   status: false
@@ -2305,643 +1776,483 @@ game:
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '13'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '8'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '8'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '12'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '12'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '8'
     cause: '12'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '3'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '12'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '8'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '12'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '12'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '8'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '12'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '12'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
 - id: 13
   name: game_13
   status: false
@@ -2964,27 +2275,21 @@ game:
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '13'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '12'
-    by_world: false
 - id: 14
   name: game_14
   status: false
@@ -3007,491 +2312,369 @@ game:
   - killer: '2'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '13'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '13'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '8'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '8'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '2'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '8'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '8'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '8'
     killed: '8'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '12'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '13'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '12'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '12'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '12'
-    by_world: false
   - killer: '3'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '3'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '12'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '8'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '13'
-    by_world: false
   - killer: '2'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '3'
     cause: '19'
-    by_world: true
   - killer: '6'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '8'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '2'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '8'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
 - id: 15
   name: game_15
   status: false
@@ -3510,15 +2693,12 @@ game:
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
 - id: 16
   name: game_16
   status: false
@@ -3554,55 +2734,42 @@ game:
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '3'
     cause: '7'
-    by_world: false
 - id: 18
   name: game_18
   status: false
@@ -3623,31 +2790,24 @@ game:
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '6'
     cause: '7'
-    by_world: false
 - id: 19
   name: game_19
   status: false
@@ -3668,383 +2828,288 @@ game:
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '1'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '7'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '7'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '19'
-    by_world: true
   - killer: '7'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '6'
     cause: '1'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '1'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '1'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '1'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '3'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
 - id: 20
   name: game_20
   status: false
@@ -4065,15 +3130,12 @@ game:
   - killer: '4'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
 - id: 21
   name: game_21
   status: false
@@ -4094,527 +3156,396 @@ game:
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '4'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '2'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '5'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '3'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '1022'
     killed: '5'
     cause: '22'
-    by_world: true
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '3'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '6'
     cause: '3'
-    by_world: false
   - killer: '4'
     killed: '2'
     cause: '3'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '4'
     cause: '10'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '1'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '6'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '1'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '2'
     cause: '19'
-    by_world: true
   - killer: '5'
     killed: '7'
     cause: '1'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '22'
-    by_world: true
   - killer: '2'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '6'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '7'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '4'
     killed: '3'
     cause: '10'
-    by_world: false
   - killer: '4'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '1022'
     killed: '6'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '4'
     cause: '19'
-    by_world: true
   - killer: '4'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '5'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '5'
     killed: '3'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '5'
     cause: '7'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '7'
-    by_world: false
   - killer: '2'
     killed: '5'
     cause: '6'
-    by_world: false
   - killer: '1022'
     killed: '7'
     cause: '22'
-    by_world: true
   - killer: '4'
     killed: '3'
     cause: '7'
-    by_world: false
   - killer: '6'
     killed: '2'
     cause: '6'
-    by_world: false
   - killer: '6'
     killed: '7'
     cause: '6'
-    by_world: false
   - killer: '3'
     killed: '4'
     cause: '6'
-    by_world: false
 kill: []
 player:
 - id: 1

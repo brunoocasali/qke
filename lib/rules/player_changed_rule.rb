@@ -1,4 +1,5 @@
-require_relative 'rules'
+# require_relative 'rules'
+# require_relative 'rule'
 require 'pry'
 
 module Rules

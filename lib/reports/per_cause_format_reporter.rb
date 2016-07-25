@@ -1,3 +1,5 @@
+# require 'reports/report'
+
 module Reports
   class PerCauseFormatReporter < Reports::Report
     def do_show!(game)

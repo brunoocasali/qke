@@ -1,3 +1,5 @@
+# require 'report'
+
 module Reports
   class SimpleFormatReporter < Reports::Report
     def do_show!(game)
