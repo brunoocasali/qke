@@ -7,6 +7,7 @@
   - [To Get Working](#to-get-working)
   - [Run Tests](#run-tests)
   - [Run App](#run-app)
+  - [TODO - Contribute](#todo)
 
 
 ### About Solution [PT]:
