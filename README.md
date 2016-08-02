@@ -54,3 +54,12 @@
 ### Run App:
 
 - `$ ruby app.rb`
+ 
+
+### TODO:
+
+  See the issue [#1]( https://github.com/brunoocasali/quake_log_parser/issues/1)
+
+
+
+by: **Bruno Casali**, @brunoocasali
