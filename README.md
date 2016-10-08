@@ -64,7 +64,7 @@
 
 ### TODO:
 
-  See the issue [#1]( https://github.com/brunoocasali/quake_log_parser/issues/1)
+  See the issues page [/issues](https://github.com/brunoocasali/quake_log_parser/issues)
 
 
 
