@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Helpers
   describe DataRepository do
     let(:data_repository) do

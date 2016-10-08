@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Rules
   class GameEndRule < Rules::Rule
     include Helpers::Constants
@@ -10,7 +11,9 @@ module Rules
 
     def do_work!
       game = Game.last_open
-      Game.update(game['id'], status: false, players: game['players'].uniq { |a| a['log_id'] }) unless game.nil?
+      return if game.nil?
+      players = game['players'].uniq { |a| a['log_id'] }
+      Game.update(game['id'], status: false, players: players)
     end
 
     def is_usable_line?

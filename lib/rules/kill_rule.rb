@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Rules
   class KillRule < Rules::Rule
     include ::Helpers::Constants
@@ -11,12 +12,11 @@ module Rules
     def do_work!
       game = Game.last_open
 
-      unless game.nil?
-        game['kills'] << { 'killer' => @data[2], 'killed' => @data[3],
-                           'cause' => @data[4], 'by_world' => world_death? }
+      return if game.nil?
+      game['kills'] << { 'killer' => @data[2], 'killed' => @data[3],
+                         'cause' => @data[4], 'by_world' => world_death? }
 
-        Game.update(game['id'], kills: game['kills'])
-      end
+      Game.update(game['id'], kills: game['kills'])
     end
 
     def is_usable_line?

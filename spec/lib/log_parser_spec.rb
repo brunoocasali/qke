@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'log_parser'
 
 describe LogParser do

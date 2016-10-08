@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Reports
   class Report
     # Will use the template method pattern to be used for other classes

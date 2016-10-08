@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require_relative 'pre_load'
 
 class LogParser
@@ -33,7 +34,7 @@ class LogParser
 
   def valid_rules?
     unless rules.all? { |klass| klass <= Rules::Rule }
-      fail 'There are invalid :rules inside passed array,' \
+      raise 'There are invalid :rules inside passed array,' \
                   ' please use only Rules::Rule subclasses.'
     end
 

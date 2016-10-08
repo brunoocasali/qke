@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Helpers
   module Constants
     # Used to match the start of lines requiring or not the space

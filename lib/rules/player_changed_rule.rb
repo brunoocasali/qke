@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # require_relative 'rules'
 # require_relative 'rule'
 require 'pry'
@@ -15,17 +16,17 @@ module Rules
     def do_work!
       game = Game.last_open
 
-      unless game.nil?
-        player = Player.all.find { |p| p['log_id'] == @data[2] }
+      return if game.nil?
+      player = Player.all.find { |p| p['log_id'] == @data[2] }
 
-        game['players'] << update_or_create_from(player)
+      game['players'] << update_or_create_from(player)
 
-        Game.update(game['id'], players: game['players'])
-      end
+      Game.update(game['id'], players: game['players'])
     end
 
     def is_usable_line?
-      @data = /#{START_MINUTES} ClientUserinfoChanged: #{CHANGED_NAME}/.match(line)
+      @data = /#{START_MINUTES} ClientUserinfoChanged: #{CHANGED_NAME}/
+              .match(line)
     end
 
     private
