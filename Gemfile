@@ -9,4 +9,5 @@ group :test do
   gem 'rubocop'
   gem 'simplecov'
   gem 'pry'
+  gem 'codeclimate-test-reporter', require: nil
 end

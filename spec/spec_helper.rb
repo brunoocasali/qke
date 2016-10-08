@@ -1,9 +1,11 @@
+require 'codeclimate-test-reporter'
 require 'pry'
 require 'simplecov'
 require 'yamlet'
 
 SimpleCov.start
 Yamlet.repository_file = 'spec/support/data/data.yml'
+CodeClimate::TestReporter.start
 
 Dir['./spec/support/**/*.rb'].each { |f| require f }
 require File.expand_path('lib/pre_load.rb')

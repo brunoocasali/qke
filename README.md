@@ -1,5 +1,9 @@
 # Quake Log Parser!
 
+[![wercker status](https://app.wercker.com/status/fe8cc0e5d4b85d476a540bc32a0c7a95/s/master "wercker status")](https://app.wercker.com/project/byKey/fe8cc0e5d4b85d476a540bc32a0c7a95)
+[![Code Climate](https://codeclimate.com/github/brunoocasali/quake_log_parser/badges/gpa.svg)](https://codeclimate.com/github/brunoocasali/quake_log_parser)
+[![Test Coverage](https://codeclimate.com/github/brunoocasali/quake_log_parser/badges/coverage.svg)](https://codeclimate.com/github/brunoocasali/quake_log_parser/coverage)
+[![Issue Count](https://codeclimate.com/github/brunoocasali/quake_log_parser/badges/issue_count.svg)](https://codeclimate.com/github/brunoocasali/quake_log_parser)
 
 #### Contents:
   - **[WHAT I NEED TO SOLVE? (problem description, PT)](/test.md)**
