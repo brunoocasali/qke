@@ -2,7 +2,7 @@
 # the Docker Hub.
 # https://registry.hub.docker.com/_/ruby/
 # If you want to use a specific version you would use a tag:
-ruby:2.3.1
+ruby: 2.3.1
 box: ruby
 
 build:
