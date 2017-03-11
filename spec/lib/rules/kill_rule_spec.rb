@@ -53,4 +53,43 @@ module Rules
       #  22:06 Kill: 2 3 7: Isgalamido killed Mocinha by MOD_ROCKET_SPLASH
     end
   end
+
+  describe 'world_death?' do
+    context 'when line includes <world>' do
+      it 'returns true' do
+        rule = KillRule.new(line: '<world>')
+        expect(rule.world_death?).to be true
+      end
+    end
+
+    context 'when data[2] is 1022' do
+      it 'return true' do
+        rule = KillRule.new(line: 'hello')
+        rule.instance_variable_set('@data', [nil, nil, '1022'])
+        expect(rule.world_death?).to be true
+      end
+    end
+
+    context 'when data[2] is not 1022 and line does not include world' do
+      it 'return false' do
+        rule = KillRule.new(line: 'hello')
+        expect(rule.world_death?).to be false
+      end
+    end
+  end
+
+  describe 'do_work!' do
+    context 'when game exists' do
+      it 'updates the game information' do
+        game = { 'kills' => [] }
+        allow(Game).to receive_messages(last_open: game, update: true)
+        rule = KillRule.new(line: '<world>')
+        rule.instance_variable_set('@data', [nil, nil, 100, 100, 100])
+        expect(rule.do_work!).to be true
+        expect(game).to eq('kills' => [
+                             { 'killer' => 100, 'killed' => 100, 'cause' => 100, 'by_world' => true }
+                           ])
+      end
+    end
+  end
 end
