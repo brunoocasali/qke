@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Rules
   describe GameInitRule, type: :rule do
     it_behaves_like 'a ruler'

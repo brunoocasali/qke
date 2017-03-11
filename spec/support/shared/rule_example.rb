@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 shared_examples_for 'a ruler' do
   let(:ruler) { described_class.new(klass: Rules::Rule, line: '') }
 

@@ -3,7 +3,7 @@ require 'yaml'
 # frozen_string_literal: true
 module Helpers
   class DataRepository
-    ROOT_PATH = 'data/data.log'.freeze
+    ROOT_PATH = 'data/data.log'
 
     attr_accessor :path, :text_data
 
@@ -13,10 +13,9 @@ module Helpers
     end
 
     def read
-      if has_file?
-        File.open(@path, 'r').each do |line|
-          @text_data << line
-        end
+      return unless has_file?
+      File.open(@path, 'r').each do |line|
+        @text_data << line
       end
     end
 

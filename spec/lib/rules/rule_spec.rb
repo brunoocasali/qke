@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Rules
   describe Rule, type: :rule do
     let!(:rule) { Rule.new(klass: Rule, line: '') }

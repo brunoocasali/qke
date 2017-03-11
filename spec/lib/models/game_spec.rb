@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 describe Game do
   describe '.last_open' do
     let!(:game_1) { Game.create(status: true, name: 'game_1')[0] }

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # require 'report'
 
 module Reports
@@ -35,8 +36,11 @@ module Reports
     end
 
     def average_kill(player_id, kills)
-      kills.select { |e| e['killer'] == player_id }.count -
-      kills.select { |e| e['killed'] == player_id && e['killer'] == '1022' }.count
+      player_kills = kills.select { |e| e['killer'] == player_id }
+      player_killed = kills.select do |e|
+        e['killed'] == player_id && e['killer'] == '1022'
+      end
+      player_kills.count - player_killed.count
     end
   end
 end
