@@ -12,7 +12,7 @@
   - [To Get Working](#to-get-working)
   - [Run Tests](#run-tests)
   - [Run App](#run-app)
-  - [TODO - Contribute](#todo)
+  - [Contribute](#contribute)
 
 
 ### About Solution [PT]:
@@ -62,7 +62,7 @@
 - `$ ruby app.rb`
  
 
-### TODO:
+### Contribute:
 
   See the issues page [/issues](https://github.com/brunoocasali/quake_log_parser/issues)
 
